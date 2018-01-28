@@ -305,16 +305,16 @@ namespace Shadowsocks.Model
 
         public Server()
         {
-            server = "server host";
-            server_port = 8388;
+            server = "example server";
+            server_port = 1707;
             method = "aes-256-cfb";
             protocol = "origin";
             protocolparam = "";
             obfs = "plain";
             obfsparam = "";
             password = "0";
-            remarks_base64 = "";
-            group = "FreeSSR-public";
+            remarks_base64 = "示例节点 请删除";
+            group = "LocoX.Network";
             udp_over_tcp = false;
             enable = true;
             byte[] id = new byte[16];
