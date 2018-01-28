@@ -397,7 +397,7 @@ namespace Shadowsocks.Model
 
             configs = new List<Server>()
             {
-                GetDefaultServer()
+             //   GetDefaultServer()
             };
         }
 
