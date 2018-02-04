@@ -386,8 +386,8 @@ namespace Shadowsocks.Model
 
             randomAlgorithm = (int)ServerSelectStrategy.SelectAlgorithm.LowException;
             random = false;
-            sysProxyMode = (int)ProxyMode.Global;
-            proxyRuleMode = (int)ProxyRuleMode.BypassLanAndChina;
+            sysProxyMode = (int)ProxyMode.Pac;
+            proxyRuleMode = (int)ProxyRuleMode.Disable;
 
             nodeFeedAutoUpdate = true;
 
