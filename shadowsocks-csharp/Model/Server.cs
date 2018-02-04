@@ -313,8 +313,8 @@ namespace Shadowsocks.Model
             obfs = "plain";
             obfsparam = "";
             password = "0";
-            remarks_base64 = "示例节点 请删除";
-            group = "LocoX.Network";
+            remarks_base64 = "此为示例节点配置-请修改";
+            group = "";
             udp_over_tcp = false;
             enable = true;
             byte[] id = new byte[16];
