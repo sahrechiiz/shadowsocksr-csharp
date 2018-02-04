@@ -226,7 +226,7 @@ namespace Shadowsocks.Model
                 }
                 else
                 {
-                    return remarks + " (" + server + ":" + server_port + ")";
+                    return remarks ;
                 }
             }
         }
